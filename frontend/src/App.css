@@ -2,7 +2,7 @@
     margin-top: 50px;
   }
   
-  .container {
+  .containerUsers {
     width: 80%;
     margin: 0 auto;
   }
@@ -40,6 +40,68 @@
   }
   
   .UserTable td button:hover {
+    background-color: #0056b3;
+  }
+
+  .addBtn {
+    padding: 5px;
+    width: 100px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+
+  /*----------------------------------------------Create User---------------------------------------------------*/
+  
+  #create {
+    margin-top: 20px;
+  }
+  
+  .containerCreate {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .addD {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  input {
+    max-width: 65rem;
+  }
+  
+  .formControl {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .submitBtn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .submitBtn:hover {
     background-color: #0056b3;
   }
   

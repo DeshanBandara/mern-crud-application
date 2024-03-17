@@ -2,6 +2,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react'
 import '../App.css'
+import { Link } from 'react-router-dom'
 
 const Users = () => {
     const [users, setUsers] = useState([{
@@ -9,8 +10,8 @@ const Users = () => {
     }])
   return (
     <div id='user'>
-        <div className='container'>
-            
+        <div className='containerUsers'>
+            <Link to="/create"> <button className='addBtn'>Add +</button></Link>
             <table className='UserTable'>
                 <thead>
                     <tr>
@@ -28,7 +29,7 @@ const Users = () => {
                                 <td>{user.Email}</td>
                                 <td>{user.Age}</td>
                                 <td>
-                                    <button>Edit</button>
+                                    <Link to="/updateUser"> <button>Edit</button></Link>
                                     <button>Delet</button>
                                 </td>
                             </tr>
