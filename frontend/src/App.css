@@ -1,0 +1,45 @@
+#user {
+    margin-top: 50px;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .UserTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .UserTable th, .UserTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .UserTable th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .UserTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .UserTable tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  .UserTable td button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .UserTable td button:hover {
+    background-color: #0056b3;
+  }
+  
