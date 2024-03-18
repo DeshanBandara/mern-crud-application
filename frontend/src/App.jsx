@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route exact path='/' Component={Users} />
         <Route path='/create' Component={CreateUser} />
-        <Route path='/updateUser' Component={UpdateUser} />
+        <Route path='/updateUser/:id' Component={UpdateUser} />
       </Routes>
     </BrowserRouter>
   )
