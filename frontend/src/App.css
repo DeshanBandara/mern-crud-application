@@ -30,7 +30,7 @@
     background-color: #ddd;
   }
   
-  .UserTable td button {
+  .editBtn {
     padding: 5px 10px;
     border: none;
     background-color: #007bff;
@@ -39,8 +39,21 @@
     margin-right: 5px;
   }
   
-  .UserTable td button:hover {
+  .editBtn:hover {
     background-color: #0056b3;
+  }
+
+  .deleteBtn {
+    padding: 5px 10px;
+    border: none;
+    background-color: #f0584a;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .deleteBtn:hover {
+    background-color: #b31800;
   }
 
   .addBtn {
